@@ -1,0 +1,16 @@
+E:\GitHub\Krampus12\bin\Debug\net5.0\Krampus12.exe
+E:\GitHub\Krampus12\bin\Debug\net5.0\Krampus12.deps.json
+E:\GitHub\Krampus12\bin\Debug\net5.0\Krampus12.runtimeconfig.json
+E:\GitHub\Krampus12\bin\Debug\net5.0\Krampus12.runtimeconfig.dev.json
+E:\GitHub\Krampus12\bin\Debug\net5.0\Krampus12.dll
+E:\GitHub\Krampus12\bin\Debug\net5.0\ref\Krampus12.dll
+E:\GitHub\Krampus12\bin\Debug\net5.0\Krampus12.pdb
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.csproj.AssemblyReference.cache
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.GeneratedMSBuildEditorConfig.editorconfig
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.AssemblyInfoInputs.cache
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.AssemblyInfo.cs
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.csproj.CoreCompileInputs.cache
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.dll
+E:\GitHub\Krampus12\obj\Debug\net5.0\ref\Krampus12.dll
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.pdb
+E:\GitHub\Krampus12\obj\Debug\net5.0\Krampus12.genruntimeconfig.cache
