@@ -148,7 +148,7 @@ namespace MapGen
 
                 if (addCoords == true)
                 {
-                    Console.WriteLine("Added new coordinate: {0}, {1}", newCoordinate[0], newCoordinate[1]);
+                    // Console.WriteLine("Added new coordinate: {0}, {1}", newCoordinate[0], newCoordinate[1]);
                     map.Add(newCoordinate);
                     tilesCovered++;
                 }
@@ -159,7 +159,7 @@ namespace MapGen
 
             foreach (var m in map)
             {
-                Console.WriteLine(m[0].ToString() + " " + m[1].ToString());
+                //Console.WriteLine(m[0].ToString() + " " + m[1].ToString());
                 xCoords.Add(m[0]);
                 yCoords.Add(m[1]);
             }
@@ -169,12 +169,12 @@ namespace MapGen
             int minValueX = xCoords.Min();
             int maxValueY = yCoords.Max();
             int minValueY = yCoords.Min();
-            Console.WriteLine("Min/Max XY values: " + minValueX + " " + maxValueX + ", " + minValueY + " " + maxValueY);
+            //Console.WriteLine("Min/Max XY values: " + minValueX + " " + maxValueX + ", " + minValueY + " " + maxValueY);
 
             // Get the new grid width by adding the absoute values of the maximum X and Y coordinates
             int newGridWidth = Math.Abs(minValueX) + Math.Abs(maxValueX) + 1;
             int newGridHeight = Math.Abs(minValueY) + Math.Abs(maxValueY) + 1;
-            Console.WriteLine("Generating new 2D array {0}x{1}...", newGridWidth, newGridHeight);
+            //Console.WriteLine("Generating new 2D array {0}x{1}...", newGridWidth, newGridHeight);
 
             // Initialize the new map grid
             // +2 for border padding
@@ -185,13 +185,13 @@ namespace MapGen
             foreach (int value in xCoords)
             {
                 absoluteXCoords.Add(value + Math.Abs(minValueX) + 1);
-                Console.WriteLine("X {0} = {1}", value, (value + Math.Abs(minValueX) + 1));
+                //Console.WriteLine("X {0} = {1}", value, (value + Math.Abs(minValueX) + 1));
             }
             List<int> absoluteYCoords = new List<int>();
             foreach (int value in yCoords)
             {
                 absoluteYCoords.Add(value + Math.Abs(minValueY) + 1);
-                Console.WriteLine("Y: {0} = {1}", value, (value + Math.Abs(minValueY) + 1));
+                //Console.WriteLine("Y: {0} = {1}", value, (value + Math.Abs(minValueY) + 1));
             }
 
             for (int i = 0; i < stepTarget; i++)
@@ -199,7 +199,7 @@ namespace MapGen
                 int newX = absoluteXCoords[i];
                 int newY = absoluteYCoords[i];
 
-                Console.WriteLine(newX + ", " + newY);
+                //Console.WriteLine(newX + ", " + newY);
                 newMap[newY, newX] = 1;
             }
 
